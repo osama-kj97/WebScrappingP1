@@ -9,7 +9,7 @@ unfamiliar_skills = list()
 # print('Put a skill that your are not familiar with:')
 unfamiliar_skill = ''
 while unfamiliar_skill != 'x':
-    print('Put a skill that your are not familiar with:')
+    print('Put a skill that your are not familiar with, (x) for exit:')
     unfamiliar_skill = input('>')
     if unfamiliar_skill != 'x':
         unfamiliar_skills.append(unfamiliar_skill.lower())
